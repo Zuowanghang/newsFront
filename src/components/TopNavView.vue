@@ -5,7 +5,7 @@
       class="el-menu-demo"
       mode="horizontal"
       @select="handleSelect"
-      background-color="#545c64"
+      background-color="#034e89"
       text-color="#fff"
       active-text-color="#ffd04b"
     >
@@ -43,3 +43,13 @@ export default {
   }
 };
 </script>
+<style>
+.nav {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+</style>
